@@ -1,16 +1,3 @@
-const alternateCase = (str) => {
-    let result = '';
-    for (let i = 0; i < str.length; i++) {
-        if (i % 2 !== 0) {
-            result += str.charAt(i).toUpperCase();
-        } else {
-            result += str.charAt(i).toLowerCase();
-        }
-    }
-    return result;
+function reverseString(str:string):string {
+    return str.split('').reverse().join('');
 }
-
-
-
-console.log(alternateCase("javascript"));
-// Результат: "jAvAsCrIpT"
