@@ -7,8 +7,6 @@ const mixedArray = [1, 'a', 2, 'b', 3, 'c'];
 console.log(filterByType(mixedArray, 'number')); // Output: [1, 2, 3]
 console.log(filterByType(mixedArray, 'string')); // Output: ['a', 'b', 'c']
 
-
-
 ```
 
 
